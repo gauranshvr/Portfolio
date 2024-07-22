@@ -9,7 +9,17 @@ a{
 html {
   scroll-behavior: smooth;
 }
+
+.logo img{
+  margin-top: 9px;
+  filter: invert(100%);
+  width: 50px;
+  margin-left: 12px;
+}
 .sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: rgb(10, 9, 9);
   position: absolute;
   top: 0;
@@ -43,7 +53,9 @@ nav > ul {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  /* justify-content: right; */
+  margin-right: 33px;
 }
 .sidebar nav li {
   list-style: none;
@@ -61,6 +73,7 @@ nav > ul {
   
 }
 .mainn {
+
   /* height: 90vh; */
   width: 90vw;
 
@@ -71,7 +84,7 @@ nav > ul {
   /* background-color: rgb(241, 90, 213); */
   /* height: 10vh; */
   width: 80vw;
-  margin: 104px ;
+  margin: 87px ;
   padding-top: -10px;
   display: flex;
   justify-content: space-between;
@@ -80,11 +93,12 @@ nav > ul {
 }
 .container {
   /* display: flex; */
-  height: 90vh;
+  background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);  height: 90vh;
   max-width: 100%;
   /* background-color: rgb(44, 42, 42); */
 }
 .devinfo {
+  margin-left: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -103,7 +117,7 @@ nav > ul {
   font-weight: bold;
 }
 .name h7{
-  color: rgb(174, 245, 210);
+  color: rgb(13, 14, 14);
   font-size: 32px;
   font-weight: 700;
   /* opacity: 0; */
@@ -577,6 +591,7 @@ h4 {
     flex-direction: column;
     gap: 20px;
   }
+
   
 }
 
