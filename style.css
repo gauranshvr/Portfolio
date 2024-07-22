@@ -533,8 +533,8 @@ h4 {
   body{
     background-repeat: no-repeat;
   }
-  .container{
-    height: 110vh;
+ .container{
+    height:140vh;
   }
   .introcontainer{
     width: 100vh;
